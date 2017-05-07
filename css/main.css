@@ -1,1 +1,41 @@
+.navbar-default .navbar-brand {
+    color: #66ccff !important;
+    font-size: 26px;
+    letter-spacing: 0.1em;
+}
 
+.navbar-nav > li > a {
+  font-size: 18px;
+  color: #333333;
+}
+
+#headerwrap {
+  background-image: url(../img/rooftop.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 930px;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+#headerwrap h2 {
+  display: block;
+  text-align: center;
+  font-size: 36px;
+}
+
+#headerwrap h3 {
+  color: #fff;
+  display: block;
+  text-align: center;
+  font-size: 36px;
+  margin-top: 0px;
+}
+
+#headerwrap span {
+  color: #66ccff;
+}
