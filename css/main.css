@@ -2,11 +2,17 @@
     color: #66ccff !important;
     font-size: 26px;
     letter-spacing: 0.1em;
+    padding-left: 250px;
 }
 
 .navbar-nav > li > a {
   font-size: 18px;
   color: #333333;
+}
+
+label {
+  padding-left: 25px;
+  padding-right: 10px;
 }
 
 #headerwrap {

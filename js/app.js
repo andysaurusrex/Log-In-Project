@@ -29,3 +29,18 @@ document.getElementById("username").value = '';
 document.getElementById('password').value = '';
 
 };
+
+document.getElementById('register').onclick =
+function registerUser() {
+  var registerUn = document.getElementById('registerUn').value;
+  var registerPw = document.getElementById('registerPw').value;
+
+  for(var i = 0; i < unArray.length; i++) {
+     if(unArray[i] === registerUn) {
+        // username exsists
+     }
+
+     document.getElementById("registerUn").value = '';
+     document.getElementById('registerPw').value = '';
+  }
+};
