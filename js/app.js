@@ -1,3 +1,6 @@
+var unArray = [];
+var pwArray = [];
+
 document.getElementById('logIn').onclick =
 //Function that initializes click of login button
 function validate() {
@@ -6,8 +9,7 @@ function validate() {
   var valid = false;
   var invalid = true;
 // array or usernames and passwords, fromt the z index of both, they are connected ex 1,1, 2,2, 3,3, they match with counterpart
-  var unArray = ["andysaurusrex", "bobthebanana", "nightwing", "mnobles"];
-  var pwArray = ["andy123", "Bobtastic", "dickgrayson", "bubbypoot"];
+
 // the function. the first checks the username array, the second checks the password array BOTH at once
   for ( var i=0; i <unArray.length; i++){
     if ((username == unArray[i]) && (password == pwArray[i])){
@@ -27,20 +29,18 @@ function validate() {
 // This clears the input after the input has been submitted
 document.getElementById("username").value = '';
 document.getElementById('password').value = '';
-
 };
 
 document.getElementById('register').onclick =
 function registerUser() {
-  var registerUn = document.getElementById('registerUn').value;
-  var registerPw = document.getElementById('registerPw').value;
 
-  for(var i = 0; i < unArray.length; i++) {
-     if(unArray[i] === registerUn) {
-        // username exsists
-     }
+unArray.push(document.getElementById('registerUn').value);
+pwArray.push(document.getElementById('registerPw').value);
 
-     document.getElementById("registerUn").value = '';
-     document.getElementById('registerPw').value = '';
-  }
+alert("Registration" + " successful!");
+
+document.getElementById('registerUn').value = "";
+document.getElementById('registerPw').value = "";
+
+
 };
