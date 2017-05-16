@@ -15,6 +15,11 @@ label {
   padding-right: 10px;
 }
 
+.row {
+  margin-top: 60px;
+  padding-left: 200px;
+}
+
 #headerwrap {
   background-image: url(../img/rooftop.jpg);
   background-size: cover;
@@ -29,6 +34,7 @@ label {
 }
 
 #headerwrap h2 {
+  color: #fff;
   display: block;
   text-align: center;
   font-size: 36px;
@@ -44,4 +50,20 @@ label {
 
 #headerwrap span {
   color: #66ccff;
+}
+
+#forgot {
+  color: #fff;
+  font-weight: bold;
+}
+
+#logInMain {
+  padding-top: 35%;
+}
+
+.colorgraph {
+  height: 2.5px;
+  border-top: 0;
+  background: #66ccff;
+  border-radius: 2px;
 }
